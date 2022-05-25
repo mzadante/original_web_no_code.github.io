@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(115, 94, 173);
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1em;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(24, 177, 7);
+    font-weight: bold;
+    
+  }
+  .subtitle {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    font-size: 25px;
+    color: bisque;
+  }
+  .logo-utn{
+      display: inline;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: auto;
+      margin-left: 25px;
+  }
+  .contenedor-video{
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+
+  }
+  .video{
+      width: 900px;
+      height: 500px;
+  }
+  .parrafo {
+    width: 100%;
+    height: 250px;
+    background: rgb(248, 208, 208);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros {
+    display: inline;  
+    margin: 0;
+    width: 98%;
+    text-align: left;
+    font-weight: bold;
+  }
+  .foto-size{
+      width: 95%;
+      height: 90%;
+      padding: 2%;
+  }
+  .titulo-proyecto{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      color: bisque;
+  }
+  .container-fotos{
+      width: 95%;
+      height: 95%;
+      background-color: rgb(57, 70, 121);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .item{
+      background: rgb(162, 168, 161);
+      flex: none;
+      width: 49%;  
+      
+      margin-bottom: 2%;
+  }
+  h4{
+      color: bisque;
+      text-align: center;
+      padding-top: 1%;
+  }
